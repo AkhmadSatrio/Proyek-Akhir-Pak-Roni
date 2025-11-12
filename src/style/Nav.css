@@ -1,0 +1,36 @@
+/* Nav.css */
+.navbar {
+  background-color: #a9744f; /* warna oak medium */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 28px;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  margin-right: 12px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #f0e6d2; /* highlight kayu terang */
+}
