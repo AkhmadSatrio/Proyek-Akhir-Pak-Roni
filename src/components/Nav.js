@@ -1,4 +1,3 @@
-// Nav.js
 import React from 'react';
 import '../style/Nav.css'; 
 
@@ -8,9 +7,6 @@ const Nav = () => {
       <div className="logo">📚 Toko Buku Saya</div>
       <ul className="nav-links">
         <li><a href="/">Beranda</a></li>
-        <li><a href="/kategori">Kategori</a></li>
-        <li><a href="/promo">Promo</a></li>
-        <li><a href="/tentang">Tentang Kami</a></li>
         <li><a href="/kontak">Kontak</a></li>
       </ul>
     </nav>
