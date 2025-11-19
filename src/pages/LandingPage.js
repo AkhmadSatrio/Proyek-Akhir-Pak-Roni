@@ -8,7 +8,7 @@ const LandingPage = () => {
         <h1>📚 Selamat Datang di Toko Buku Saya</h1>
         <p>Temukan buku terbaik dari novel klasik hingga ilmu pengetahuan modern.</p>
         <div className="cta-group">
-          <a href="/Store" className="cta-button">Masuk ke Toko</a>
+          <a href="/Login" className="cta-button">Masuk ke Toko</a>
         </div>
       </section>
 
