@@ -1,0 +1,138 @@
+.cart-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cart-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.cart-card {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #fdfdfd;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cart-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.cart-image {
+  max-width: 140px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.cart-info h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  color: #222;
+}
+
+.cart-info p {
+  margin: 0.3rem 0;
+  color: #555;
+}
+
+.remove-button {
+  margin-left: auto;
+  background: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+.remove-button:hover {
+  background: #c82333;
+}
+
+.order-info {
+  margin: 2rem 0;
+}
+
+.order-info h4 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.order-info label {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.order-info input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.order-info input:focus {
+  border-color: #28a745;
+  outline: none;
+}
+
+.shipping-options {
+  margin-bottom: 1.5rem;
+}
+
+.shipping-options h4 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.shipping-options label {
+  display: block;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.shipping-options input[type="radio"]:checked + span {
+  font-weight: bold;
+  color: #28a745;
+}
+
+.confirm-button {
+  display: block;
+  width: 100%;
+  background: #28a745;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.confirm-button:hover {
+  background: #218838;
+  transform: translateY(-2px);
+}
